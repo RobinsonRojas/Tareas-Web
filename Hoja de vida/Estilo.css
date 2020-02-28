@@ -1,0 +1,84 @@
+*{
+    color: white;
+}
+
+
+img{
+    display:block;
+    margin:auto;
+    }
+
+select, option,input{   /* color de la letra del formulario*/
+    color: black;
+}
+
+
+
+h1,h2,h3 {
+    text-align: center;
+    font-family: Impact , Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+body {
+    background-image: url("https://cdn5.f-cdn.com/contestentries/1108779/15284413/5994f46743e9d_thumb900.jpg");
+}
+
+
+#titulo {
+    text-align: center;
+    background: #ED1D24;
+    
+    padding:5px;
+}
+
+#menu {
+    background: #22252A;
+    
+    padding: 10px;
+}
+
+
+#menu li {
+    font: bold 17px 'Arial Narrow Bold', sans-serif;   /* verdana= tipo de letra */
+}
+
+#fondo{
+    background-color: rgba(255, 255, 255, 0.089);
+    display: table;
+}
+
+#seccion {
+    padding: 15px;
+}
+
+#foto {
+    float: right;
+    padding: 10px;
+    width: auto;
+    
+    background: rgb(60, 69, 83);
+    border: 1px solid #ffffff;
+
+
+}
+
+article {
+    background: #22252A;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    height: auto;
+    margin-block-end: 50px;
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ffffff;
+}
