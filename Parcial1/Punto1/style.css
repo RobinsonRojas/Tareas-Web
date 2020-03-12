@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    margin: auto;
+    font-size: larger;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em; 
+    background-color: whitesmoke;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/9d/4d/07/9d4d07ca7d591bb3cd3d9f4df2624bbf.jpg);
+}
+

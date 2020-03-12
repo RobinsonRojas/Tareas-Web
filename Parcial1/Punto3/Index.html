@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--
+        name: Robinson Arley Rojas Novoa 
+        date: 11/03/2020
+        version: 1.0
+        copyright: Robinson Arley Rojas Novoa 
+        description: Calculadora de la diagonal de la pantalla del usuario calculada he ingresada por el usuario.
+    -->
+
+<body>
+
+    <section>
+
+        <h1>Punto3</h1>
+        <p>Calculadora de la diagonal de la pantalla del usuario calculada he ingresada por el usuario.</p>
+        <hr>
+        <h2>Calculo con datos del objeto window</h2>
+        <p>De clic en el boton para ver el calculo de la diagonal de su pantalla o ingrese los datos.</p>
+        <button onclick="funcion1()">Ver</button>
+        <br>
+        Su anchura:
+        <p id="Anchura1"></p>
+        Su altura:
+        <p id="Altura1"></p>
+        Su diagonal:
+        <p id="solucion1"></p>
+        <hr>
+        <h2>Calculo con datos ingresados</h2>
+        <p>Ingrese los dato para otra diagonal.</p>
+        <p>
+            Ingrese la anchura:
+            <input type="number" id="anchura">
+            <br>
+            Ingrese la altura:
+            <input type="number" id="altura">
+        </p>
+
+        <button onclick="funcion()">Ver</button>
+        <p id="solucion"></p>
+
+    </section>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
