@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 PUNTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+        Name: Robinson Arley Rojas Novoa 
+        Date: 30/03/2020
+        GitHub: https://github.com/RobinsonRojas/Tareas-Web/tree/master/Taller22
+        Copyright: Robinson Arley Rojas Novoa 
+    
+    -->
+
+<body>
+    <header id="titulo">
+        <h1>8 VALOR MATRICULA</h1>
+    </header>
+
+
+    <div class="padre">
+        <div class="container">
+
+            <section>
+                <h2>Enunciado</h2>
+                <p>
+
+                    Se desea obtener el valor de la matrícula de un estudiante cuyo valor se calcula de la siguiente
+                    manera en un subprograma:
+
+
+                    <ul>
+                        <li>Si toma 20 o menos créditos, paga el crédito al valor normal.</li>
+                        <li>Si toma por encima de 20 créditos, se pagarán los créditos extras al doble de valor normal.</li>
+                        <li>Si el estudiante es de estrato 1, 2 o 3 recibe los siguientes descuentos:.</li>
+                          <ul>
+                            <li>Si el estrato es 1, el descuento es del 80%.</li>
+                            <li>Si el estrato es 2, el descuento es del 50%.</li>
+                            <li>Si el estrato es 3, el descuento es del 30%.</li>
+
+                        </ul>
+                    </ul>
+
+                    Además los estratos 1 y 2 reciben subsidio de alimentación y transporte de la siguiente manera (el
+                    cual se debe calcular en otro
+                    subprograma):
+                    <ul>
+                        <li>Para el estrato 1, el subsidio de alimentación y transporte es igual a $200.000.</li>
+                        <li>Para el estrato 2, el subsidio de alimentación y transporte es igual a $100.000.</li>
+
+                    </ul>
+
+                    Se debe informar al usuario sobre el costo de la matrícula y el valor del subsidio.
+
+                </p>
+            </section>
+
+            <section>
+                Número de créditos:
+                <input type="number" id="creditos">
+                <br>
+                <br>
+                Valor crédito:
+                <input type="number" id="valor">
+                <br>
+                <br>
+                Estrato del estudiante:
+                <select name="estrato" id="estrato">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br>
+                <br>
+                <button onclick="calcular()">Calcular
+                </button>
+
+
+
+
+            </section>
+
+            <section>
+                <h2>Solucion</h2>
+                <p id="solucion"></p>
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+    <footer id="pie">
+        Derechos reservados ® 2020
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>

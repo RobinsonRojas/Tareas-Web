@@ -1,0 +1,51 @@
+* {
+    color: whitesmoke;
+}
+
+select,
+option,
+input,
+button {
+    color: black;
+}
+
+body {
+    background-image: url("https://cdn5.f-cdn.com/contestentries/1108779/15284413/5994f46743e9d_thumb900.jpg");
+    /*background-color: #18191A;*/
+    font-family: Helvetica;
+}
+
+#titulo {
+    text-align: center;
+    background: #242526;
+    padding: 5px;
+    border: 1px solid #3A3B3C;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000;
+}
+
+section {
+    margin: auto;
+    font-size: larger;
+    width: 700px;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #242526;
+    margin: 1em;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid;
+}

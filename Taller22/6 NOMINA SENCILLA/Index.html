@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 PUNTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+        Name: Robinson Arley Rojas Novoa 
+        Date: 30/03/2020
+        GitHub: https://github.com/RobinsonRojas/Tareas-Web/tree/master/Taller22
+        Copyright: Robinson Arley Rojas Novoa 
+    
+    -->
+
+<body>
+    <header id="titulo">
+        <h1>6 NOMINA SENCILLA</h1>
+    </header>
+
+
+    <div class="padre">
+        <div class="container">
+
+            <section>
+                <h2>Enunciado</h2>
+                <p>Elaborar un programa que entre el nombre de un empleado, su salario básico por hora y el número de horas trabajadas
+                    en el mes; escriba su nombre y salario mensual si éste es mayor del salario mínimo, de lo contrario escriba sólo el
+                    nombre.</p>
+            </section>
+
+            <section>
+                Ingrese nombre:
+                <input type="text" id="nombre">
+                <br>
+                Ingrese número de horas trabajadas:
+                <input type="number" id="horas">
+                <br>
+                Ingrese valor hora:
+                <input type="number" id="valor">
+                <br>
+                Ingrese valor salario mínimo mensual:
+                <input type="number" id="salario">
+                <br>
+
+                <button onclick="calcular()">Calcular
+                </button>
+            </section>
+
+            <section>
+                <h2>Solucion</h2>
+                <p id="solucion"></p>
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+    <footer id="pie">
+        Derechos reservados ® 2020
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>

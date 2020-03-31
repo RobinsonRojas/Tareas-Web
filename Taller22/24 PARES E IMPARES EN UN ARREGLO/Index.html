@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 PUNTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+        Name: Robinson Arley Rojas Novoa 
+        Date: 30/03/2020
+        GitHub: https://github.com/RobinsonRojas/Tareas-Web/tree/master/Taller22
+        Copyright: Robinson Arley Rojas Novoa 
+    
+    -->
+
+<body>
+    <header id="titulo">
+        <h1>24 PARES E IMPARES EN UN ARREGLO </h1>
+    </header>
+
+    <div class="padre">
+        <div class="container">
+
+            <section>
+                <h2>Enunciado</h2>
+                <p>Construir un programa que cree un vector de N posiciones. Si la posición es par, la celda del vector
+                    se debe llenar con la siguiente formula Celda[i] = i + 7. Si la celda es impar, la celda del vector
+                    se debe llenar con la siguiente formula Celda[i] = i - 1. Se debe mostrar como quedo el arreglo y
+                    luego debe mostrar la sumatoria de las celdas con valores pares y la productoria de las celdas con
+                    valores impares. </p>
+            </section>
+
+            <section>
+                Cuantas posiciones desea:
+                <input type="number" id="numero1">
+                <br><br>
+                <button onclick="calcular()">Calcular</button>
+            </section>
+
+            <section>
+                <h2>Solucion</h2>
+                <p id="solucion"></p>
+                <p id="solucion2"></p>
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+    <footer id="pie">
+        Derechos reservados ® 2020
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>
