@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twin paired </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+        Name: Robinson Arley Rojas Novoa 
+        Date: 30/03/2020
+        GitHub: https://github.com/RobinsonRojas/Tareas-Web/tree/master/Taller22
+        Copyright: Robinson Arley Rojas Novoa 
+    
+    -->
+
+<body>
+    <header id="titulo">
+        <h1>twin paired </h1>
+    </header>
+
+
+    <div class="padre">
+        <div class="container">
+
+            <section>
+                <h2>Enunciado</h2>
+                <p>Un conjunto se define como emparejado gemelo si sus elementos de valor par (si los hay) están en
+                    orden ascendente y sus elementos de valor impar (si los hay) están en orden ascendente. La matriz
+                    {-6, 12, 1, 24, 3, 5} está emparejada gemela porque los elementos de valor par (-6, 12, 24) están en
+                    orden ascendente y también lo están los elementos de valor impar (1, 3, 5) Sin embargo, la matriz
+                    {3, 2, 1} no se emite gemelamente porque los números impares no están en orden ascendente.
+                    <br>
+                    <br>
+                    Escriba una función llamada isTwinPaired que devuelva 1 si su argumento de matriz es gemelo, de lo
+                    contrario, devuelve 0.
+                    <br>
+                    <br>
+                    Otros arreglos emparejados gemelos incluyen:
+                    <li>{2, 4, 32}</li>
+                    <li>{2, 2, 2, 1, 1, 1}</li>
+                    <li>{1, 19, 23}</li>
+                    <li>{1, 2}</li>
+                    <li>{2, 1}</li>
+                    <li>{8}</li>
+                    <li>{17}</li>
+                    <li>{ }</li>
+                </p>
+            </section>
+
+            <section>
+                Ingrese el tamaño del array:
+                <input type="number" id="numero1">
+                <button onclick="isTwinPaired()">Ingresar los numeros en el array
+                </button>
+            </section>
+
+            <section>
+                <h2>Solucion</h2>
+                <p id="solucion"></p>
+            </section>
+
+        </div>
+    </div>
+
+
+
+
+    <footer id="pie">
+        Derechos reservados ® 2020
+    </footer>
+</body>
+<script src="js.js"></script>
+
+</html>
