@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <h1>Hoja de vida</h1>
+    </header>
+
+    <div class="formulario">
+        <article id="formulario">
+            <h2>Formulario</h2>
+            <form action="" onsubmit="visualizar();return false;">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>Nombre : <input type="text" id="nombre" style="text-transform:uppercase;"
+                            onkeyup="javascript:this.value=this.value.toUpperCase();" required></p>
+                    <p>Segundo Nombre : <input type="text" id="nombre2" style="text-transform:uppercase;"
+                            onkeyup="javascript:this.value=this.value.toUpperCase();" required></p>
+                    <p>Apellido : <input type="text" id="apellido" style="text-transform:uppercase;"
+                            onkeyup="javascript:this.value=this.value.toUpperCase();" required></p>
+                    <p>Segundo Apellido : <input type="text" id="apellido2" style="text-transform:uppercase;"
+                            onkeyup="javascript:this.value=this.value.toUpperCase();" required></p>
+                    <p>Foto : <input type="file" id="img" name="img" accept="image/*" required></p>
+                    <p>Fecha de nacimiento : <input type="date" id="fehcaNA" required></p>
+                    <p>Sexo :
+                        <select id="sexo" required>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Masculino">Masculino</option>
+                        </select>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+                    <p>Telefono : <input type="number" id="telefono" required></p>
+                    <p>Correo : <input type="email" id="correo" style="text-transform:lowercase"
+                            onkeyup="javascript:this.value=this.value.toLowerCase();" required></p>
+
+                    <p>Direccion : 
+                        <select name="menu" id="direccion1" required>
+                            <option value="Carrera">Carrera</option>
+                            <option value="Calle">Calle</option>
+                            <option value="Diagonal">Transversal</option>
+                        </select>
+                        -
+                        <input type="text" id="direccion2" size="2" required>
+                        #
+                        <input type="number" id="direccion3" size="1" required>
+                    </p>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Perfil personal</legend>
+                    <p><textarea id="texto" rows="4" cols="40" style="text-transform:lowercase"
+                            onkeyup="javascript:this.value=this.value.toLowerCase();" required></textarea></p>
+                </fieldset>
+                <br>
+
+                <input type="submit" value="LLenar" id="BtnVisualizar">
+                <input type="reset" value="Borrar">
+            </form>
+            <br>
+            llenar el formulario primero para poder imprimir.
+            <input type="submit" value="Imprimir" id="Btnimprimir" onclick="imprimir()" disabled>
+        </article>
+
+        <article id="solucion" class="solu">
+            
+        </article>
+    </div>
+
+    <footer>
+        Derechos reservados ® 2020
+    </footer>
+
+</body>
+<script src="js.js"></script>
+
+</html>

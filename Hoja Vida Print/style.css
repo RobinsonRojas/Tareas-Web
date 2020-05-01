@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+header {
+    background-color: #fafafa;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+article {
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    width: 40%;
+}
+
+article.solu {
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    width: 600px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img{
+    float: right;
+    padding: 5px;
+    border: 2px solid #ccc;
+}
+
+fieldset{
+    text-justify: auto;
+}
+
+  
+footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid;
+}
